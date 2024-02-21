@@ -3,6 +3,7 @@ import mongoose, { Schema } from 'mongoose'
 // Conexion a la base de datos
 mongoose
   .connect(
+    // Url de la base de datos de mongoDB
     'mongodb+srv://testuser:testpassword@cluster0.6pgk3zo.mongodb.net/?retryWrites=true&w=majority'
   )
   .then(() => {
